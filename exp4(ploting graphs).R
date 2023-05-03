@@ -1,0 +1,8 @@
+names<-c("reyna","jett","sova")
+age<-c(20,23,30)
+marks<-c(20,25,35)
+df<-data.frame(names,age,marks)
+boxplot(df $age)
+barplot(df $marks)
+barplot(df $marks,horiz=TRUE)
+
