@@ -1,0 +1,5 @@
+names<-c("reyna","jett","sova")
+age<-c(20,23,30)
+salary<-c(100,200,300)
+df<-data.frame(names,age,salary)
+cat("Mid range=",(max(age)-min(age))/2)
